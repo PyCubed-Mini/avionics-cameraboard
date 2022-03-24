@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "cameraboard")(type "KiCad")(uri "${KIPRJMOD}/kicad-libs/cameraboard.kicad_sym")(options "")(descr ""))
+)
