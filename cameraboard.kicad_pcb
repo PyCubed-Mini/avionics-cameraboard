@@ -132,7 +132,7 @@
       (net 3 "/BATT_P") (pintype "passive") (tstamp b4bb129a-27c6-47af-a65b-1d062a176af1))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "Net-(D1-Pad2)") (pintype "passive") (tstamp de673e63-5f43-4989-8aea-860e28e93f50))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -229,8 +229,8 @@
       (net 18 "unconnected-(Q1-PadC1)") (pinfunction "NTC") (pintype "bidirectional+no_connect") (tstamp a82cec30-45c1-49b3-b9e6-e30cc49eb759))
     (pad "C2" smd rect (at -5.08 -11.43 180) (size 2.54 1.27) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 24 "Net-(Q1-PadC2)") (pinfunction "VBAT") (pintype "power_in") (tstamp 572f678c-7489-4a0c-81c3-6f024e0707be))
-    (model "${KIPRJMOD}/nicla_vision.step"
-      (offset (xyz 12.065 -11.43 0))
+    (model "${KIPRJMOD}/kicad-libs/3d/nicla_vision.step"
+      (offset (xyz 12.065 -11.43 0.127))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 180 0))
     )
@@ -271,7 +271,7 @@
       (net 21 "/CAM_EN") (pintype "passive") (tstamp 437daa66-7365-482e-804c-8098c6a0905c))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "Net-(D1-Pad2)") (pintype "passive") (tstamp 311a70eb-5859-4da6-8fe4-344b06368e0f))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -365,7 +365,7 @@
       (net 22 "/CAM_CS") (pinfunction "Pin_9") (pintype "passive") (tstamp c61a2d85-d3d7-4faf-9bef-d07618588ca0))
     (pad "10" smd rect (at -1.8 2.54 270) (size 2.1 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 23 "unconnected-(J1-Pad10)") (pinfunction "Pin_10") (pintype "passive+no_connect") (tstamp 570b0686-0fc3-46c1-be51-39569bba54ce))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x05_P1.27mm_Vertical_SMD.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x05_P1.27mm_Vertical_SMD.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3584,7 +3584,7 @@
       (net 3 "/BATT_P") (pinfunction "K") (pintype "passive") (tstamp 9098a6bf-eae0-4636-90c3-6c2f5d9401fd))
     (pad "2" smd rect (at 1.65 0 270) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "Net-(D1-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 0673bd15-bb27-42a3-b8dd-ff34de638161))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
