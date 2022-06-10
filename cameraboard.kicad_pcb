@@ -67,7 +67,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../cameraboard-gerbers")
+      (outputdirectory "gerbers/cameraboard (6-9-22)")
     )
   )
 
