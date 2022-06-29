@@ -2781,7 +2781,7 @@
 
   (footprint "cameraboard:SAMTEC_FLE-105-01-G-DV-A" (layer "B.Cu")
     (tedit 62A0F913) (tstamp b0e3d9d9-2612-44ab-a0f8-e4950e35bbc2)
-    (at 98.5012 73.3044)
+    (at 98.5 64.5575)
     (property "Sheetfile" "cameraboard.kicad_sch")
     (property "Sheetname" "")
     (path "/807faee2-6f79-4342-b6dc-a6393295f7fe")
