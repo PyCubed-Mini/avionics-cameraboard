@@ -67,7 +67,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers/cameraboard (6-9-22)")
+      (outputdirectory "gerbers/cameraboard (07-06-22)")
     )
   )
 
@@ -3008,7 +3008,7 @@
   (gr_arc (start 123.35001 83.149989) (mid 123.632852 83.267146) (end 123.750009 83.549988) (layer "Edge.Cuts") (width 0.0254) (tstamp bf42f840-4642-4492-b081-aa8af573b5ed))
   (gr_arc (start 130.549993 86.95) (mid 130.432832 87.232833) (end 130.149994 87.35) (layer "Edge.Cuts") (width 0.0254) (tstamp ea634774-6467-4e4d-aa73-d57bbdd5e435))
   (gr_arc (start 83.75001 40.949991) (mid 83.867167 40.667151) (end 84.150009 40.549992) (layer "Edge.Cuts") (width 0.0254) (tstamp ecdc72d2-0fa1-4f00-9e84-f8a0d4cdcb26))
-  (gr_text "v02.1\n30-JUN-22" (at 89.449999 50.499989 270) (layer "B.Mask") (tstamp e9b5dc84-fcf0-4d9e-8c3c-10916a216ce7)
+  (gr_text "v02.1\n06-JUL-22" (at 89.450012 50.500001 270) (layer "B.Mask") (tstamp e9b5dc84-fcf0-4d9e-8c3c-10916a216ce7)
     (effects (font (size 0.635 0.635) (thickness 0.1524)) (justify right mirror))
   )
 

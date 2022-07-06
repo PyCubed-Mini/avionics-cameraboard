@@ -6,7 +6,7 @@
 
   (title_block
     (title "PyCubed Mini")
-    (date "2022-06-26")
+    (date "2022-07-06")
     (rev "02.1")
     (company "REx Lab Carnegie Mellon University")
     (comment 1 "Z. Manchester")
@@ -1956,7 +1956,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 67fb167c-2e07-4682-a485-c98809770199)
     (property "Reference" "Q1" (id 0) (at 64.897 108.0246 0))
-    (property "Value" "Nikla_Vision" (id 1) (at 64.897 110.5615 0))
+    (property "Value" "Nicla_Vision" (id 1) (at 64.897 110.5615 0))
     (property "Footprint" "cameraboard:Nicla" (id 2) (at 64.897 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2494,7 +2494,7 @@
       (reference "J3") (unit 1) (value "Micro_SD_Card") (footprint "cameraboard:MOLEX_503398-1892")
     )
     (path "/67fb167c-2e07-4682-a485-c98809770199"
-      (reference "Q1") (unit 1) (value "Nikla_Vision") (footprint "cameraboard:Nicla")
+      (reference "Q1") (unit 1) (value "Nicla_Vision") (footprint "cameraboard:Nicla")
     )
     (path "/882d46a3-f6b5-48da-ba0b-4e99a228c1fd"
       (reference "Q2") (unit 1) (value "SSM3J133TU,LF") (footprint "cameraboard:SSM3J133TU")
