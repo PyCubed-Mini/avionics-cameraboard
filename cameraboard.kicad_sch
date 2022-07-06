@@ -1426,7 +1426,7 @@
     (effects (font (size 3.81 3.81) (thickness 0.762) bold) (justify left bottom))
     (uuid c2967dbb-1d27-4df0-8578-3d2c2558fe25)
   )
-  (text "SPI Bus Protection - Nikla Board" (at 211.836 89.027 0)
+  (text "SPI Bus Protection - Nicla Board" (at 211.836 89.027 0)
     (effects (font (size 2.159 2.159)) (justify left bottom))
     (uuid d4c404b2-ecae-4d05-ac48-81d641d653c7)
   )
