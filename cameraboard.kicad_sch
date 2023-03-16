@@ -5269,6 +5269,10 @@
     (effects (font (size 5.08 5.08)) (justify left bottom))
     (uuid 00327665-ff05-4714-8075-e453f3cc1d31)
   )
+  (text "Set for flight" (at 254 157.607 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 005e6ac0-6127-4e5b-94e2-a1bc002d12aa)
+  )
   (text "cameraboard" (at 335.534 263.525 0)
     (effects (font (size 3.81 3.81) (thickness 0.762) bold) (justify left bottom))
     (uuid 0df18f18-0f92-4f94-8709-683ef5ecc56d)
@@ -5284,6 +5288,10 @@
   (text "Power Enable\nCircuit" (at 246.761 137.287 0)
     (effects (font (size 5.08 5.08)) (justify left bottom))
     (uuid 2f6fe935-2ef1-400b-a3e6-8a48d676070b)
+  )
+  (text "Set for flight" (at 170.053 177.038 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3508d4e4-090b-4e46-8fbb-7bb9ed0eea12)
   )
   (text "HI-Power\nSelection" (at 181.229 32.893 0)
     (effects (font (size 5.08 5.08)) (justify left bottom))
@@ -5341,6 +5349,11 @@
   (text "LDOs" (at 264.287 25.019 0)
     (effects (font (size 5.08 5.08)) (justify left bottom))
     (uuid c7c84683-dd85-4854-865b-e7d91959a9f3)
+  )
+  (text "Select boot mode\nSet \"low\" for normal operation.\nSet \"high\" for bootloader mode"
+    (at 205.359 181.483 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d00bbc05-ac12-45b9-a695-e5ce5dff4f70)
   )
   (text "USB Connector" (at 52.07 208.915 0)
     (effects (font (size 5.08 5.08)) (justify left bottom))
@@ -7198,7 +7211,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x10_Odd_Even") (at 327.914 220.218 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4517685a-d4c9-41ab-81f8-cbdf6487e239)
-    (property "Reference" "J6" (at 329.057 207.264 0)
+    (property "Reference" "J5" (at 329.057 207.264 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TFM-110-12-X-D-A" (at 328.676 236.22 0)
@@ -7233,7 +7246,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -7520,7 +7533,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 290.068 232.918 0) (unit 1)
     (in_bom yes) (on_board no) (dnp yes)
     (uuid 5803938a-0a18-4d85-a18e-3fbf58e130ce)
-    (property "Reference" "J3" (at 288.925 219.964 0)
+    (property "Reference" "J8" (at 288.925 219.964 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x08" (at 284.099 221.996 0)
@@ -7543,7 +7556,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "J3") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -8324,7 +8337,7 @@
   (symbol (lib_id "cameraboard:USD-1040310811") (at 378.333 150.114 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 935817f9-fd7c-428c-b55d-f059221d4e8a)
-    (property "Reference" "J8" (at 370.713 129.286 0)
+    (property "Reference" "J3" (at 370.713 129.286 0)
       (effects (font (size 1.4986 1.4986)) (justify left bottom))
     )
     (property "Value" "USD-1040310811" (at 367.919 171.196 0)
@@ -8350,7 +8363,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "J8") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -8414,7 +8427,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 289.941 204.216 0) (unit 1)
     (in_bom yes) (on_board no) (dnp yes)
     (uuid 95acc3d8-99f0-49dc-a8f0-10579e398384)
-    (property "Reference" "J5" (at 288.798 191.135 0)
+    (property "Reference" "J7" (at 288.798 191.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x08" (at 284.099 193.167 0)
@@ -8437,7 +8450,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "J5") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -10031,7 +10044,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x07_Odd_Even") (at 378.079 217.932 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee7b2fc4-2be2-4825-a601-0c343a83481e)
-    (property "Reference" "J7" (at 379.349 207.645 0)
+    (property "Reference" "J6" (at 379.349 207.645 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FLE-107-01-X-DV-A" (at 379.222 228.727 0)
@@ -10060,7 +10073,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
