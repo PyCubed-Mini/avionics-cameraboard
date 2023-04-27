@@ -6,8 +6,8 @@
 
   (title_block
     (title "PyCubed Mini")
-    (date "2023-02-18")
-    (rev "B3/01")
+    (date "2023-04-12")
+    (rev "B3/02")
     (company "REx Lab Carnegie Mellon University")
     (comment 1 "Z. Manchester")
     (comment 2 "N. Khera")
@@ -3249,6 +3249,9 @@
   (junction (at 96.012 46.736) (diameter 0) (color 0 0 0 0)
     (uuid 5161774f-7f53-4299-97b7-0c3534a8b558)
   )
+  (junction (at 73.787 237.617) (diameter 0) (color 0 0 0 0)
+    (uuid 55b2c2f3-63f9-4c46-9b1a-cf00c766ee49)
+  )
   (junction (at 138.43 122.936) (diameter 0) (color 0 0 0 0)
     (uuid 57f416f8-c377-4ddd-a070-1fc88908e182)
   )
@@ -3349,7 +3352,7 @@
     (uuid bc3f4a3d-d57a-48ea-922d-a16588d60b23)
   )
   (junction (at 73.787 242.697) (diameter 0) (color 0 0 0 0)
-    (uuid c37af278-89e8-4d7e-a1de-ce5688b39c50)
+    (uuid bd6370ff-8da2-4196-b63e-69898b3bfdc6)
   )
   (junction (at 90.932 46.736) (diameter 0) (color 0 0 0 0)
     (uuid c71c4708-d02a-4fb0-a14b-887e37917162)
@@ -3383,9 +3386,6 @@
   )
   (junction (at 220.599 55.118) (diameter 0) (color 0 0 0 0)
     (uuid dcf2498c-9b9c-4f89-b95f-aa8823e17c73)
-  )
-  (junction (at 73.787 237.617) (diameter 0) (color 0 0 0 0)
-    (uuid e49fe992-8ec1-4f7c-becf-d98b82241236)
   )
   (junction (at 143.51 125.476) (diameter 0) (color 0 0 0 0)
     (uuid e4e9bbd0-89bd-4b15-a9c2-dd0028a54fbc)
@@ -3462,7 +3462,7 @@
   (no_connect (at 121.412 178.816) (uuid e4756979-43e2-4233-83e6-fdaa03eec81e))
   (no_connect (at 385.699 223.012) (uuid e8c9ca05-8230-422f-9ec7-8b26387f09f2))
 
-  (wire (pts (xy 73.787 222.377) (xy 78.486 222.377))
+  (wire (pts (xy 73.787 222.377) (xy 78.105 222.377))
     (stroke (width 0) (type default))
     (uuid 004a7dbe-a8c4-47c6-b786-e249bf906e3e)
   )
@@ -3601,10 +3601,6 @@
   (wire (pts (xy 339.979 147.574) (xy 344.551 147.574))
     (stroke (width 0) (type default))
     (uuid 11bf66f2-5be8-4dd8-b325-8fed54169ff5)
-  )
-  (wire (pts (xy 87.884 237.617) (xy 83.185 237.617))
-    (stroke (width 0) (type default))
-    (uuid 136ce424-76a9-47cc-822e-eca8bc313839)
   )
   (wire (pts (xy 228.6 219.329) (xy 221.361 219.329))
     (stroke (width 0) (type default))
@@ -3788,7 +3784,7 @@
     (stroke (width 0) (type default))
     (uuid 32042a2a-2d41-4c64-a7e0-79566a3a878a)
   )
-  (wire (pts (xy 83.566 222.377) (xy 88.011 222.377))
+  (wire (pts (xy 83.185 222.377) (xy 88.011 222.377))
     (stroke (width 0) (type default))
     (uuid 328828b0-c9ca-405c-82a0-844bdfa8d70a)
   )
@@ -3919,6 +3915,10 @@
     (stroke (width 0) (type solid))
     (uuid 420b43c8-4d58-477d-8bb2-884820035daa)
   )
+  (wire (pts (xy 73.787 237.617) (xy 80.772 237.617))
+    (stroke (width 0) (type default))
+    (uuid 426a69a4-41bb-41c2-be43-03fa929d816a)
+  )
   (wire (pts (xy 64.008 173.736) (xy 75.692 173.736))
     (stroke (width 0) (type default))
     (uuid 426cebcb-e731-493e-ba32-d8b93debde01)
@@ -3975,10 +3975,6 @@
   (wire (pts (xy 123.571 47.879) (xy 123.571 46.609))
     (stroke (width 0) (type default))
     (uuid 4b0b7d67-5c76-4cb1-aa96-080d2d69e12e)
-  )
-  (wire (pts (xy 78.105 242.697) (xy 73.787 242.697))
-    (stroke (width 0) (type default))
-    (uuid 4cd3cae6-c8db-4fc0-a7f8-14e35f263b3d)
   )
   (wire (pts (xy 43.942 91.186) (xy 43.942 96.393))
     (stroke (width 0) (type default))
@@ -4151,10 +4147,6 @@
     (stroke (width 0) (type default))
     (uuid 650b68a7-4756-4f38-bf0d-6dbdc2f72f70)
   )
-  (wire (pts (xy 83.185 242.697) (xy 87.757 242.697))
-    (stroke (width 0) (type default))
-    (uuid 6683aca6-eb62-4870-975f-d2baa68d2320)
-  )
   (wire (pts (xy 133.096 67.056) (xy 121.412 67.056))
     (stroke (width 0) (type default))
     (uuid 66d0ca72-87d5-4221-a73d-bd1c9ff7977a)
@@ -4303,10 +4295,6 @@
   (wire (pts (xy 347.599 162.814) (xy 365.633 162.814))
     (stroke (width 0) (type default))
     (uuid 7bed3c06-485f-4e6d-9b3f-e9748e24f2e6)
-  )
-  (wire (pts (xy 78.105 237.617) (xy 73.787 237.617))
-    (stroke (width 0) (type default))
-    (uuid 7c1e5409-a7d1-4aad-b064-a4391492f434)
   )
   (wire (pts (xy 373.126 48.26) (xy 384.81 48.26))
     (stroke (width 0) (type default))
@@ -5143,6 +5131,10 @@
     (stroke (width 0) (type default))
     (uuid f01a37aa-0295-43da-b1c2-445bfbfbda72)
   )
+  (wire (pts (xy 73.787 242.697) (xy 80.772 242.697))
+    (stroke (width 0) (type default))
+    (uuid f037cc6b-875a-46b6-a87c-f52c5c5631c0)
+  )
   (wire (pts (xy 176.149 226.314) (xy 176.149 230.632))
     (stroke (width 0) (type default))
     (uuid f0def130-775d-4238-b588-3af5a09fcc3f)
@@ -5285,6 +5277,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 199008e2-ce19-4d43-956a-e47518455dcf)
   )
+  (text "Check Xtal Datasheet\nThis value assumes 7pF \ncrystal bulk capacitance"
+    (at 52.324 83.947 0)
+    (effects (font (size 0.635 0.635)) (justify left bottom))
+    (uuid 2c368f5e-4793-4dfa-a955-7030f5bda908)
+  )
   (text "Power Enable\nCircuit" (at 246.761 137.287 0)
     (effects (font (size 5.08 5.08)) (justify left bottom))
     (uuid 2f6fe935-2ef1-400b-a3e6-8a48d676070b)
@@ -5308,6 +5305,10 @@
   (text "To -Y Board" (at 369.697 241.681 0)
     (effects (font (size 2.032 2.032)) (justify left bottom))
     (uuid 5bf311ef-8cfd-4963-8c42-60f666431e06)
+  )
+  (text "Potentially Replace with Ferrite Bead" (at 89.154 222.504 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 64d6216d-295d-41dc-b1a4-99a01a86274f)
   )
   (text "Status LED & IO headers" (at 166.497 197.739 0)
     (effects (font (size 5.08 5.08)) (justify left bottom))
@@ -5572,10 +5573,6 @@
   (label "BATT_N_SW" (at 311.404 222.758 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4c6cec55-f836-441b-b271-e766c8cca73a)
-  )
-  (label "DC+" (at 74.422 242.697 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5063c4d5-e03b-48ba-9012-649220ae1edb)
   )
   (label "DCMI_PWDN" (at 64.008 158.496 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -5913,17 +5910,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e0a80371-b681-4980-81c9-ce8727796017)
   )
-  (label "D+" (at 87.757 242.697 180) (fields_autoplaced)
+  (label "D+" (at 80.772 242.697 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e1002249-d636-4568-aa11-340683c45f8d)
   )
   (label "POWER_EN" (at 262.509 99.314 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e10903b5-2e8c-44a8-818e-12f8f6fee4df)
-  )
-  (label "DC-" (at 74.422 237.617 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e39650f3-5616-414c-b635-a80c9fc7ae1f)
   )
   (label "EXPST" (at 64.008 161.036 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -5937,7 +5930,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e8e6702f-2b32-4aa1-8ac4-fbc35cba423c)
   )
-  (label "D-" (at 87.884 237.617 180) (fields_autoplaced)
+  (label "D-" (at 80.772 237.617 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e8f2f5b3-f361-4b90-a648-be3c0aef7439)
   )
@@ -6057,7 +6050,7 @@
   (symbol (lib_id "Device:R_Small") (at 50.927 265.557 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b372a04-f552-4a29-91d1-bd530ae90e7c)
-    (property "Reference" "R4" (at 51.943 265.557 0)
+    (property "Reference" "R1" (at 51.943 265.557 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (at 50.927 266.319 90)
@@ -6074,7 +6067,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R4") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -6209,7 +6202,7 @@
   (symbol (lib_id "Device:R_Small") (at 244.983 212.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15b0e716-14f8-4c88-8f1a-1fee931eff6d)
-    (property "Reference" "R10" (at 245.872 212.725 0)
+    (property "Reference" "R8" (at 245.872 212.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1K" (at 244.983 213.487 90)
@@ -6226,7 +6219,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R10") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -6235,7 +6228,7 @@
   (symbol (lib_id "Device:R_Small") (at 347.091 147.574 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 174848d3-3590-4912-8e75-dfa0f7f3e038)
-    (property "Reference" "R21" (at 351.028 146.558 90)
+    (property "Reference" "R11" (at 351.028 146.558 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 347.091 147.574 90)
@@ -6252,7 +6245,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R21") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -6287,7 +6280,7 @@
   (symbol (lib_id "Device:R_Small") (at 347.091 150.114 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19113516-35df-463c-8e19-13f0f3cd813e)
-    (property "Reference" "R11" (at 351.028 149.098 90)
+    (property "Reference" "R12" (at 351.028 149.098 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 347.091 150.114 90)
@@ -6304,7 +6297,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -6624,6 +6617,32 @@
     )
   )
 
+  (symbol (lib_id "Device:R_Small") (at 80.645 222.377 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 23c6932e-994a-4046-a9ca-9d2da5ff74f2)
+    (property "Reference" "R20" (at 82.55 220.472 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0R" (at 81.534 222.377 90)
+      (effects (font (size 0.7874 0.7874)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 80.645 222.377 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 80.645 222.377 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4fe81b19-b307-4ca0-9b97-2bee4b8b4a51))
+    (pin "2" (uuid 45451c41-1d9a-4e9d-93ca-bd2d248a7e3f))
+    (instances
+      (project "cameraboard"
+        (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
+          (reference "R20") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MCU_ST_STM32H7:STM32H743VITx") (at 98.552 115.316 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 252cec9e-9d9f-421c-9636-edaab00f6efe)
@@ -6774,7 +6793,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 235.204 272.415 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 27a1eb48-8974-44b1-9787-1f807a143781)
     (property "Reference" "H3" (at 254.127 270.383 90)
       (effects (font (size 1.27 1.27)))
@@ -6851,7 +6870,7 @@
   (symbol (lib_id "Device:R_Small") (at 184.912 142.367 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2877bd0a-0a37-4778-8191-050743631a32)
-    (property "Reference" "R1" (at 185.9026 142.3475 0)
+    (property "Reference" "R4" (at 185.9026 142.3475 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100R" (at 185.039 143.891 90)
@@ -6868,7 +6887,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -6902,7 +6921,7 @@
   (symbol (lib_id "Device:R_Small") (at 203.327 171.196 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29c18bcd-3e48-47f2-bb84-0e2879dc17a9)
-    (property "Reference" "R2" (at 203.327 169.291 90)
+    (property "Reference" "R6" (at 203.327 169.291 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 203.327 171.196 90)
@@ -6919,7 +6938,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -6971,32 +6990,6 @@
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
           (reference "#PWR0106") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:FerriteBead_Small") (at 81.026 222.377 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 30668be5-1a0a-42ca-98aa-391a4e15d21d)
-    (property "Reference" "FB2" (at 81.026 217.297 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "600R" (at 81.026 219.329 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 81.026 224.155 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 81.026 222.377 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f1f3dd18-9128-4b85-83a7-edc26fed0fc4))
-    (pin "2" (uuid 731732ae-07de-49c0-853f-146d6187402c))
-    (instances
-      (project "cameraboard"
-        (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "FB2") (unit 1)
         )
       )
     )
@@ -7056,7 +7049,7 @@
   (symbol (lib_id "Device:R_Small") (at 143.51 129.159 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37f5afcc-986a-4ef3-b9e9-6fad37162b0d)
-    (property "Reference" "R17" (at 148.336 129.159 0)
+    (property "Reference" "R18" (at 148.336 129.159 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 143.51 127.762 90)
@@ -7073,7 +7066,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -7134,7 +7127,7 @@
   (symbol (lib_id "Device:R_Small") (at 347.091 142.494 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41fdf335-9ff8-4cbf-a3b5-00cb65ced417)
-    (property "Reference" "R20" (at 347.091 140.716 90)
+    (property "Reference" "R10" (at 347.091 140.716 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 347.091 142.494 90)
@@ -7151,7 +7144,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R20") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -7456,7 +7449,7 @@
   (symbol (lib_id "Device:R_Small") (at 202.692 133.477 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 542f42fc-4445-4a84-b875-16029ace3b6b)
-    (property "Reference" "R3" (at 203.835 133.477 0)
+    (property "Reference" "R5" (at 203.835 133.477 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 202.819 134.62 90)
@@ -7473,7 +7466,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -7692,7 +7685,7 @@
   (symbol (lib_id "Device:R_Small") (at 80.645 227.457 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c34d04c-4326-4eef-8edf-c8ef7cacbe5a)
-    (property "Reference" "R6" (at 81.915 225.552 90)
+    (property "Reference" "R2" (at 81.915 225.552 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1K" (at 82.042 227.457 90)
@@ -7709,7 +7702,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R6") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -7771,7 +7764,7 @@
   (symbol (lib_id "Device:R_Small") (at 58.166 153.416 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e617348-73b0-49da-8b2c-8ce49c56264a)
-    (property "Reference" "R18" (at 59.309 153.416 0)
+    (property "Reference" "R19" (at 59.309 153.416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 58.1406 154.559 90)
@@ -7788,7 +7781,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R18") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -8021,32 +8014,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 80.645 237.617 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 80b029ad-f40b-4690-bc6e-868ce097f881)
-    (property "Reference" "R8" (at 81.915 235.712 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "22R" (at 81.788 237.744 90)
-      (effects (font (size 0.7874 0.7874)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 80.645 237.617 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 80.645 237.617 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 48be923d-5e65-4dc4-a2f0-2f3d72e8f162))
-    (pin "2" (uuid 9441fa12-b5c7-4bd7-84ea-5059ddc40cd4))
-    (instances
-      (project "cameraboard"
-        (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R8") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 123.571 42.418 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82c13db9-19db-404e-99e6-77465b298dfc)
@@ -8103,7 +8070,7 @@
   (symbol (lib_id "Device:R_Small") (at 80.645 229.997 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84c9ec07-b9c7-4261-a7c6-5fc009636a40)
-    (property "Reference" "R7" (at 81.915 232.029 90)
+    (property "Reference" "R3" (at 81.915 232.029 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1K" (at 82.042 229.997 90)
@@ -8120,14 +8087,14 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R7") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 217.678 272.415 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 8a4d5dd7-d80c-4926-a690-5da48e51e086)
     (property "Reference" "H2" (at 205.486 270.3861 90)
       (effects (font (size 1.27 1.27)))
@@ -8459,7 +8426,7 @@
   (symbol (lib_id "Device:R_Small") (at 267.97 160.782 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95ba0f07-a46c-4a3d-83ef-dd3ad75aa4ea)
-    (property "Reference" "R9" (at 266.827 160.782 0)
+    (property "Reference" "R7" (at 266.827 160.782 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 268.097 159.512 90)
@@ -8476,7 +8443,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R9") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -8638,7 +8605,7 @@
   (symbol (lib_id "Device:R_Small") (at 347.091 137.414 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a48f0b6f-146b-4b8b-b422-5c2d697be01e)
-    (property "Reference" "R19" (at 347.091 135.636 90)
+    (property "Reference" "R9" (at 347.091 135.636 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 347.091 137.414 90)
@@ -8655,7 +8622,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R19") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -8843,7 +8810,7 @@
   (symbol (lib_id "Device:R_Small") (at 138.43 113.157 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid adec2b59-1958-41b2-9072-fad826e25553)
-    (property "Reference" "R14" (at 133.604 113.157 0)
+    (property "Reference" "R15" (at 133.604 113.157 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 138.43 114.554 90)
@@ -8860,7 +8827,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R14") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -8869,7 +8836,7 @@
   (symbol (lib_id "Device:FerriteBead_Small") (at 339.344 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aee9394b-084d-45f3-a6d3-d58070f6ebae)
-    (property "Reference" "FB3" (at 339.3059 78.4184 90)
+    (property "Reference" "FB2" (at 339.3059 78.4184 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "120R" (at 339.344 80.645 90)
@@ -8886,7 +8853,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "FB3") (unit 1)
+          (reference "FB2") (unit 1)
         )
       )
     )
@@ -9075,7 +9042,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 217.551 277.749 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid bb50cd44-0f9b-4f7e-ab9e-f416bf763c8b)
     (property "Reference" "H1" (at 205.359 275.717 90)
       (effects (font (size 1.27 1.27)))
@@ -9181,7 +9148,7 @@
     (property "Reference" "C16" (at 49.276 81.026 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10pF" (at 49.276 82.804 90)
+    (property "Value" "4pF" (at 49.276 82.804 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 49.276 85.725 0)
@@ -9349,7 +9316,7 @@
     (property "Reference" "Y1" (at 56.896 88.646 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "16MHz" (at 58.801 93.726 90)
+    (property "Value" "12MHz/7pF" (at 48.133 93.726 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" (at 55.118 91.186 0)
@@ -9575,7 +9542,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 235.204 277.876 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d47b05d0-0ade-469a-9749-88060fbc197e)
     (property "Reference" "H4" (at 254.127 275.844 90)
       (effects (font (size 1.27 1.27)))
@@ -9602,7 +9569,7 @@
   (symbol (lib_id "Device:R_Small") (at 347.091 155.194 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d495f8ff-88a4-48da-ab01-5ee414ab665d)
-    (property "Reference" "R13" (at 351.028 154.178 90)
+    (property "Reference" "R14" (at 351.028 154.178 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 347.091 155.194 90)
@@ -9619,7 +9586,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -9758,7 +9725,7 @@
     (property "Reference" "C17" (at 49.276 99.441 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10pF" (at 49.276 101.219 90)
+    (property "Value" "4pF" (at 49.276 101.219 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 49.276 96.393 0)
@@ -9781,7 +9748,7 @@
   (symbol (lib_id "Device:R_Small") (at 347.091 152.654 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3165b83-a43a-4457-a6c9-142f36519eab)
-    (property "Reference" "R12" (at 351.028 151.638 90)
+    (property "Reference" "R13" (at 351.028 151.638 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 347.091 152.654 90)
@@ -9798,7 +9765,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -9939,32 +9906,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Small") (at 80.645 242.697 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e8ef081b-4ee8-4e6a-b8ff-5c85a4941fb5)
-    (property "Reference" "R5" (at 81.915 240.919 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "22R" (at 81.788 242.824 90)
-      (effects (font (size 0.7874 0.7874)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 80.645 242.697 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 80.645 242.697 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5661cee9-3308-41c8-ad79-ee61b1b28985))
-    (pin "2" (uuid 1c9ac76c-603b-4dde-a1ff-55e2a0d97051))
-    (instances
-      (project "cameraboard"
-        (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+3.3V") (at 339.979 129.159 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e95bdee4-2112-4a2a-85f4-a9ed90cb3b0f)
@@ -10082,7 +10023,7 @@
   (symbol (lib_id "Device:R_Small") (at 138.43 129.159 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eec743b6-b7e0-43be-bcb2-af5b3cef8259)
-    (property "Reference" "R15" (at 137.541 129.159 0)
+    (property "Reference" "R17" (at 137.541 129.159 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 138.43 127.762 90)
@@ -10099,7 +10040,7 @@
     (instances
       (project "cameraboard"
         (path "/71281620-6c96-40fb-9fa9-51f44fb772fb"
-          (reference "R15") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
